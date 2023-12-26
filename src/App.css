@@ -4,7 +4,7 @@
 * {
   margin: 0;
   border: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 :root {
@@ -234,4 +234,26 @@ h1 {
     width: "100%";
     margin: 1rem;
   }
+}
+
+/*Radio buttons*/
+
+.radio-buttons-group {
+  max-width: 80vw;
+}
+
+.radio-buttons-group > div > div > div {
+  background-color: #222326 !important;
+  padding-top: 5px;
+}
+
+.radio-buttons-group > div > div {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.radio-buttons-group > div {
+  border: none !important;
+  border-radius: 12px !important;
+  width: 80px !important;
 }
